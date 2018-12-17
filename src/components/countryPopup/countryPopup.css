@@ -1,0 +1,46 @@
+.overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.countryPopup {
+	width: 80%;
+	max-width: 300px;
+	max-height: 80%;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+.countryPopup .title {
+	width: 100%;
+	margin: 0 0 15px;
+}
+
+.countryPopup .flag {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #e4e4e4
+}
+
+.countryPopup .info {
+	width: 100%;
+}
+
+.countryPopup .infoData {
+	color: #9e9595
+}
+
+.countryPopup .langWrapper {
+	padding-left: 40px;
+	list-style: disc;
+}

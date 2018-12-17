@@ -1,0 +1,31 @@
+.country {
+    padding: 20px;
+    border-bottom: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.country:hover {
+    background-color: #f1eeee
+}
+.country:last-child {
+    border: none;
+}
+.country .flag {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+        border: 1px solid #d8d8d8;
+}
+.country .flag img {
+    width: 50px;
+    height:50px;
+    border-radius: 50%
+}
+.country .region {
+color: #9e9595
+}
